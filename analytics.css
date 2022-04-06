@@ -1,0 +1,101 @@
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wholebody{
+    display: flex;
+    justify-content: center;
+    height: 550px;
+}
+.bluebody{
+    flex: 1;
+    background-color: rgb(2, 2, 30);
+    justify-content: center;
+    text-align: center;
+}
+.whitebody{
+    flex: 1;
+    background-color: white;
+}
+img{
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    margin-top: 15px;
+}
+.header1{
+    color: white;
+    font-size: 34px;
+}
+p{
+    color: white; 
+}
+.host{
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.CEO{
+    color:white;
+    margin: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nameofceo{
+    color: white;
+}
+.contentctrl{
+    margin-top: 25%;
+}
+.header2{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.description{
+    text-align: center;
+    margin-bottom: 20px;
+}
+input{
+    height: 30px;
+    border: 1px solid rgb(217, 209, 209);
+    border-radius: 3px;
+    width: 90%;
+    margin: 10px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-size: 14px;
+    padding-left: 20px;
+}
+button{
+     height: 40px;
+     width: 95%;
+     color: white;
+     border: none;
+     background-color: rgb(47, 47, 178);
+     border-radius: 3px;
+}
+.registerbtn{
+    display: flex;
+    justify-content: center;
+}
+.fn{
+    flex: 1;
+    margin-left: 10px;
+}
+.ln{
+    flex: 1;
+    margin-right: 15px;
+}
+.contentctrl2{
+    margin-top: 25%;
+}
