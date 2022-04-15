@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+.mainbody{
+    display: flex;
+    width: 45%;
+    height: 400px
+}
+.product{
+    flex: 1;
+    height: 400px;
+    background-image: url('./vase.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.productinfo{
+    flex: 1;
+    background-color: white;
+}
+.header{
+    font-size: 28px;
+    font-weight: bold;
+}
+p{
+   width: 230px;
+   color: gray;
+   padding-top: 30px;
+}
+.lowopacity{
+    opacity: 20%;
+    font-size: 14px;
+}
+.price{
+    font-size: 26px;
+    font-weight: bold;
+}
+button{
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    width: 150px;
+    background-color: lightgreen;
+    color: white;
+    font-weight: bold;
+}
+.buying{
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+}
+.buybtn{
+    padding-left: 50px;
+}
+.inputctrl{
+    padding: 40px;
+}
