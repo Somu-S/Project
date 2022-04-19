@@ -1,0 +1,242 @@
+body{
+    background-color: rgb(255, 145, 0);
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto
+}
+.mainbody{
+    width: 350px;
+
+}
+.tshirt{
+    background-image: url('./image.jpg');
+    height: 200px;
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    background-position: top;
+}
+.info{
+    background-color: white;
+    height: 250px;
+    width: 100%;
+    padding: 10px;
+    padding-top: 10px;
+}
+.sizes{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    color: rgba(255, 183, 0, 0.971);
+    margin-top: 10px;
+}
+.gray{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: gray;
+}
+.orange div{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: rgb(255, 187, 0);
+}
+
+.orange {
+    height: 10px;
+    width: 10px;
+    padding: 2px;
+    border-radius: 100%;
+    border: 2px solid rgb(255, 187, 0);  
+}
+.blue{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: blue;
+}
+.availablecolors{
+    /* display: flex;
+    width: 8%;
+    justify-content: space-between; */
+    display: grid;
+    width: 10%;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    margin-top: 10px;
+}
+#m{
+    height: 20px;
+    width: 20px;
+    background-color: orange;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    font-size: 20px;
+    font-weight: bold;
+}
+.price{
+    color: rgb(255, 161, 10);
+    font-size: 18px;
+    font-weight: bold;
+}
+#graytext{
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+label{
+    font-size: 12px;
+    font-family: 'Akshar', sans-serif;
+    font-weight: bold;
+}
+.headernprice{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.buy{
+    background-color: orange;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 120px;
+}
+.cart{
+    background-color: white;
+    border: 2px solid orange;
+    color: orange;
+    height: 30px;
+    width: 120px;
+}
+.buttonctrl{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.siz{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.colo{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+@media (min-width:320px) and (max-width:480px) {
+    body{
+        display: grid;
+        gap: 0px;
+        row-gap: 20px;
+        grid-template-columns: auto;
+    }
+    .mainbody{
+        margin: 0px auto;
+        width: 80%;
+    }
+    .tshirt{
+        background-image: url('./image.jpg');
+        height: 200px;
+        content: "";
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-color: white;
+        background-position: top;
+    }
+    .info{
+        height: 210px;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+    body{
+        display: grid;
+        row-gap: 0px;
+        gap:40px;
+        grid-template-columns: auto auto;
+        width: 80%;
+        margin: 0px auto;
+    }
+    .mainbody{
+        width: 100%;
+    }
+    .buy{
+        width: 100px;
+    }
+    .cart{
+        width: 100px;
+    }
+    .info{
+        width: 90%;
+        height: 220px;
+    }
+    .tshirt{
+        width: 90%;
+        height: 150px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    body{
+        background-color: red;
+        display: grid;
+        row-gap: 0px;
+        gap: 30px;
+        grid-template-columns: auto auto auto;
+        width: 90%;
+        margin: 0px auto;
+    }
+    .mainbody{
+        width: 100%;
+    }
+    .info{
+        width: 80%;
+        height: 240px;
+    }
+    .tshirt{
+        width: 80%;
+        height: 100px;
+    }
+    .buy{
+        width: 100px;
+    }
+    .cart{
+        width: 100px;
+    }
+}
+@media (min-width:1025px){
+    body{
+        background-color: blue;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 90%;
+        margin: 0px auto;
+        row-gap: 0px;
+        gap: 20px;
+    }
+    .mainbody{
+        width: 100%;
+    }
+    .info{
+        width: 90%;
+        height: 240px;
+    }
+    .tshirt{
+        width: 90%;
+        height: 100px;
+    }
+    .buy{
+        width: 90px;
+    }
+    .cart{
+        width: 90px;
+    }
+}

@@ -10,6 +10,7 @@ body{
     height: 400px
 }
 .product{
+    content: "";
     flex: 1;
     height: 400px;
     background-image: url('./vase.jpg');
@@ -42,6 +43,7 @@ button{
     border-radius: 20px;
     border: none;
     height: 35px;
+    font-size: 14px;
     width: 150px;
     background-color: lightgreen;
     color: white;
@@ -57,4 +59,70 @@ button{
 }
 .inputctrl{
     padding: 40px;
+}
+
+@media (max-width:600px) and (min-width:2303px){
+    body{
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        background-color: rgb(28, 190, 98);
+        margin: auto;
+    }
+    .mainbody{
+        display: flex;
+        flex-direction: column;
+    }
+    .product{
+        content: "";
+        flex: 1;
+        height: 400px;
+        width: 400px;
+        /* background-image: url('./vase.jpg'); */
+        /* background-repeat: no-repeat; */
+        /* background-position: top; */
+        /* background-size: cover; */
+    }
+  
+    .productinfo{
+        width: fit-content;
+    }
+    .header{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    p{
+       width: 230px;
+       color: gray;
+       padding-top: 0px;
+    }
+    .lowopacity{
+        opacity: 20%;
+        font-size: 14px;
+    }
+    .price{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    button{
+        font-size: 12px;
+        height: fit-content;
+        width: fit-content;
+        padding: 5px 10px;
+        font-weight: 200;
+    }
+    .buying{
+        display: flex;
+        width: 70%;
+        margin: 0px auto;
+        padding-top: 0px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .buybtn{
+        padding-left:0px;
+    }
+    .inputctrl{
+        padding: 0px;
+    }
 }
