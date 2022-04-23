@@ -1,0 +1,32 @@
+body {
+    margin: 0%;
+  }
+  .navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(207, 201, 201);
+    height: 50px;
+    align-items: center;
+  }
+  .companyName {
+    text-transform: uppercase;
+    color: purple;
+  }
+  nav {
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    /* background-color: red;  */
+  }
+  .nav {
+    display: flex;
+  }
+  .gap {
+      display: flex;
+      justify-content: center;
+    width: 50px; 
+    margin: 2px;
+  }
+  
