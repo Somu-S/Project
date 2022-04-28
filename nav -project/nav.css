@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
+.container{
+    box-sizing: border-box;
+    width: 100%;
+}
 body{
     margin: 0%;
     margin-bottom: 10%;
 }
 .bar{
-    background-color: rgb(24, 183, 185);;
+    background-color: rgb(24, 183, 185);
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -29,18 +32,24 @@ a:hover{
     color: rgb(255, 132, 153);
 }
 .banner{
-    position: relative;
-}
-.img{
+    /* background-color: green; */
+    width: 100%;
     background-image: url(https://images.unsplash.com/photo-1533577116850-9cc66cad8a9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-repeat: no-repeat;
     position: center;
     height: 600px;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+/* .img{
+ 
+} */
 .text{
-    position: absolute;
-    top: 200px;
+    /* position: absolute; */
+    /* top: 200px; */
     color:rgb(246, 229, 236) ;
     right: 720px;
     font-size: 38px;
@@ -56,9 +65,7 @@ height: 30px;
 .searchbox{
     width: 400px;
     display: flex;
-    position: absolute;
-    top: 260px;
-    right: 600px;
+    /* right: 600px; */
 }
 button{
     outline: none;
@@ -92,28 +99,576 @@ img{
 }
 .box{
     background-color: white;
-    width: 280px;
+    width: 100%;
     position: relative;
     margin-top: 20px;
     text-align: justify;
-    border: 2px solid gray;
-    height: 200px;
+    box-shadow: 1px 1px 10px rgb(179, 179, 179);
+    height: fit-content;
     background-color: rgba(8, 169, 169, 0.717);
 }
 .box:hover{
+    color: white;
     background-color: rgba(207, 38, 159, 0.922);
 }
 .description{
     width: 150px;
     margin: 10px;
+    font-size: 16px;
     font-weight: 500;
 }
 .title{
     margin: 10px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.allcards{
+    margin-top:  40px;
+}
 .cardcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    gap: 20px;
+    width: 95%;
+    margin: 0px auto;
+    align-items: center;
+    height: 350px;
+}
+.card-category{
+    width: 40%;
+    margin-left: 0%;
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin-top: 10px;
+    text-align: center;
+    font-size:18px;
+}
+.mainbody{
+    width: 300px;
+    box-shadow: 2px 4px 10px  rgb(158, 156, 156);
+}
+.tshirt{
+    background-image: url('./image.jpg');
+    height: 200px;
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: top;
+}
+.info{
+    height: 250px;
+    width: 100%;
+    padding: 10px;
+    padding-top: 10px;
+}
+.sizes{
     display: flex;
-    justify-content: space-evenly;
+    width: 40%;
+    justify-content: space-between;
+    color: rgba(255, 183, 0, 0.971);
+    margin-top: 10px;
+}
+.gray{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: gray;
+}
+.orange div{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: rgb(255, 187, 0);
+}
+
+.orange {
+    height: 10px;
+    width: 10px;
+    padding: 2px;
+    border-radius: 100%;
+    border: 2px solid rgb(255, 187, 0);  
+}
+.blue{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: blue;
+}
+.availablecolors{
+    /* display: flex;
+    width: 8%;
+    justify-content: space-between; */
+    display: grid;
+    width: 10%;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    margin-top: 10px;
+}
+#m{
+    height: 20px;
+    width: 20px;
+    background-color: orange;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    font-size: 20px;
+    font-weight: bold;
+}
+.price{
+    color: rgb(255, 161, 10);
+    font-size: 18px;
+    font-weight: bold;
+}
+#graytext{
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+label{
+    font-size: 12px;
+    font-family: 'Akshar', sans-serif;
+    font-weight: bold;
+}
+.headernprice{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.buy{
+    background-color: orange;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 120px;
+}
+.cart{
+    background-color: white;
+    border: 2px solid orange;
+    color: orange;
+    height: 30px;
+    width: 120px;
+}
+.buttonctrl{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.siz{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.colo{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    width: fit-content;
+    margin: 30px auto;
+}
+.btitle{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+@media (max-width:319px){
+    .comname{
+        font-size: 18px;
+    }
+    a{
+        font-size: 8px;
+        padding: 2px
+    }
+    .navtools{
+        margin-right: 50px;
+    }
+    .banner{
+        height: 300px;
+    }
+    .searchbox input{
+        height:20px;
+        display: flex;
+        justify-content: center;
+    }
+     .searchbox{
+         width: 70%;
+     }
+     .cardcontainer{
+         grid-template-columns: auto;
+         gap: 5px;
+         justify-content: center;
+     }
+     .cards{
+         grid-template-columns: auto;
+         width: fit-content;
+         gap: 15px;
+     }
+     .mainbody{
+         width: 180px;
+         height: 300px;
+     }
+     .tshirt{
+         height: 110px;
+     }
+     .info{
+         height: 170px;
+     }
+     .title{
+         font-size: 14px;
+     }
+     .description{
+         font-size: 12px;
+     }
+     img{
+         height: 50px;
+         width: 50px;
+         right: 5px;
+         top: 40px;
+     }
+     .header{
+         font-size: 14px;
+     }
+     .price{
+         font-size: 14px;
+     }
+     #graytext{
+         margin-top: 2px;
+     }
+     .sizes{
+         font-size: 10px;
+     }
+     #m{
+         height: 12px;
+         width: 12px;
+     }
+     .colo{
+         font-size: 12px;
+     }
+     .siz{
+         font-size: 12px;
+     }
+     button{
+         width: 20px;
+     }
+     .buy{
+         width: 70px;
+         height: 25px;
+         font-size: 10px;
+     }
+     .cart{
+         width:70px;
+         height: 25px;
+         font-size: 10px;
+     }
+     .submit{
+         width: 50px;
+         font-size: 10px;
+     }
+     .card-category{
+         font-size: 12px;
+         display: block;
+         display: flex;
+         justify-content: space-between;
+         width: 80%;
+     }
+     .allcards{
+         margin-top: 220px;
+     }
+     .btitle{
+         font-size: 16px;
+     }
+     .box{
+         width: 230px;
+     }
+}
+@media (min-width:320px) and (max-width:480px){
+    .comname{
+        font-size: 18px;
+    }
+    a{
+        font-size: 10px;
+        padding: 2px
+    }
+    .navtools{
+        margin-right: 10px;
+        width: 50%;
+    }
+    .banner{
+        height: 300px;
+    }
+    .searchbox input{
+        height:20px;
+        display: flex;
+        justify-content: center;
+    }
+     .searchbox{
+         width: 70%;
+     }
+     .cardcontainer{
+         grid-template-columns: auto;
+         gap: 5px;
+         justify-content: center;
+     }
+     .cards{
+         grid-template-columns: auto;
+         width: fit-content;
+         gap: 15px;
+     }
+     .mainbody{
+         width: 200px;
+         height: 300px;
+     }
+     .tshirt{
+         height: 110px;
+     }
+     .info{
+         height: 170px;
+     }
+     .title{
+         font-size: 14px;
+     }
+     .description{
+         font-size: 12px;
+     }
+     img{
+         height: 70px;
+         width: 70px;
+         right: 5px;
+         top: 30px;
+     }
+     .header{
+         font-size: 14px;
+     }
+     .price{
+         font-size: 14px;
+     }
+     #graytext{
+         margin-top: 2px;
+     }
+     .sizes{
+         font-size: 10px;
+     }
+     #m{
+         height: 12px;
+         width: 12px;
+     }
+     .colo{
+         font-size: 12px;
+     }
+     .siz{
+         font-size: 12px;
+     }
+     button{
+         width: 20px;
+     }
+     .buy{
+         width: 70px;
+         height: 25px;
+         font-size: 10px;
+     }
+     .cart{
+         width:70px;
+         height: 25px;
+         font-size: 10px;
+     }
+     .submit{
+         width: 50px;
+         font-size: 10px;
+     }
+     .card-category{
+         font-size: 12px;
+         display: block;
+         display: flex;
+         justify-content: space-between;
+         width: 80%;
+     }
+     .allcards{
+         margin-top: 280px;
+     }
+     .btitle{
+         font-size: 18px;
+     }
+     .box{
+         width: 250px;
+         height: 130px;
+     }
+}
+@media (min-width:481px) and (max-width:768px){
+    .cardcontainer{
+        grid-template-columns: auto auto;
+        height: fit-content;
+        width: 80%;
+        margin-top: 20px;
+    }
+    .card-category{
+        font-size: 16px;
+        margin-left: 10%;
+    }
+    .cards{
+        grid-template-columns: auto auto;
+    }
+    .banner{
+        height: 350px;
+    }
+    .bar{
+        height: 50px;
+    }
+    .comname{
+        font-size: 14px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .navtools{
+        margin-right: 20px;
+        width: 40%;
+    }
+    .box{
+        width: 100%;
+    }
+    .mainbody{
+        width: 200px;
+    }
+    .info{
+        height: 180px;
+    }
+    .header{
+        font-size: 16px;
+    }
+    .price{
+        font-size: 12px;
+    }
+    #graytext{
+        margin-top: 4px;
+    }
+    .siz{
+        font-size: 12px;
+    }
+    .colo{
+        font-size: 12px;
+    }
+    .sizes{
+        font-size: 12px;
+    }
+    #m{
+        width: 15px;
+        height: 15px;
+    }
+    .colo{
+        font-size: 12px;
+    }
+    .buy{
+        font-size: 12px;
+        width: 80px;
+    }
+    .cart{
+        font-size: 12px;
+        width: 80px;
+    }
+    .tshirt{
+        height: 120px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        right: 6px;
+    }
+    .description{
+        font-size: 13px;
+        width: 60%;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .cards{
+        grid-template-columns: auto auto;
+    }
+    .banner{
+        height: 500px;
+    }
+    .cardcontainer{
+        grid-template-columns: auto auto;
+        height: fit-content;
+        width: 75%;
+        row-gap: 0px;
+        margin-top: 20px;
+    }
+    .box{
+        width: 100%
+    }
+    .card-category{
+        margin-left: 10%;
+    }
+    .navtools{
+        width: 40%;
+    }
+    a{
+        font-size: 14px;
+    }
+    .btitle{
+        font-size: 32px;
+    }
+}
+@media (min-width:1025px) and (max-width:1200px){
+    .cardcontainer{
+        grid-template-columns: auto auto auto auto;
+        height: fit-content;
+        margin-top: 20px;
+    }
+    .cards{
+        grid-template-columns: auto auto auto;
+    }
+    .box{
+        width: 100%;
+    }
+    .description{
+        width: 50%;
+    }
+    .card-category{
+        margin-left:5%;
+    }
+}
+@media (min-width:1201px) {
+    .cardcontainer{
+        grid-template-columns: auto auto auto auto;
+        width: 90%;
+    }
+    .card{
+        grid-template-columns: auto auto auto auto;
+    }
+    .box{
+         width: 100%;
+    }
+    .description{
+        width: 50%;
+    }
+    .card-category{
+        margin-left: 10%;
+    }
+    .mainbody{
+        width: 250px;
+    }
+    .cart{
+        font-size: 14px;
+        width: 90px;
+    }
+    .buy{
+        font-size: 14px;
+        width: 90px;
+    }
+    .info{
+        height: 200px;
+    }
+    .btitle{
+        margin-bottom: 10px;
+    }
 }
