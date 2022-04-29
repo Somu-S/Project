@@ -132,7 +132,7 @@ img{
     width: 95%;
     margin: 0px auto;
     align-items: center;
-    height: 350px;
+    /* height: 350px; */
 }
 .card-category{
     width: 40%;
@@ -281,6 +281,11 @@ label{
     font-size: 28px;
     margin-bottom: 10px;
 }
+.product{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 200px;
+}
 @media (max-width:319px){
     .comname{
         font-size: 18px;
@@ -380,15 +385,21 @@ label{
          display: flex;
          justify-content: space-between;
          width: 80%;
+         margin-left: 10%;
      }
-     .allcards{
+     /* .allcards{
          margin-top: 220px;
-     }
+     } */
      .btitle{
          font-size: 16px;
      }
      .box{
          width: 230px;
+     }
+     .product{
+         font-size: 16px;
+         margin-left: 20px;
+         margin-top: 20px;
      }
 }
 @media (min-width:320px) and (max-width:480px){
@@ -490,17 +501,23 @@ label{
          display: block;
          display: flex;
          justify-content: space-between;
-         width: 80%;
+         width: 75%;
+         margin-left: 20%;
      }
-     .allcards{
+     /* .allcards{
          margin-top: 280px;
-     }
+     } */
      .btitle{
          font-size: 18px;
      }
      .box{
          width: 250px;
          height: 130px;
+     }
+     .product{
+         font-size: 18px;
+         margin-top: 20px;
+         margin-left: 70px;
      }
 }
 @media (min-width:481px) and (max-width:768px){
@@ -513,6 +530,7 @@ label{
     .card-category{
         font-size: 16px;
         margin-left: 10%;
+        width: 80%;
     }
     .cards{
         grid-template-columns: auto auto;
@@ -587,6 +605,11 @@ label{
         font-size: 13px;
         width: 60%;
     }
+    .product{
+        margin-left: 15%;
+        margin-top: 30px;
+        font-size: 20px;
+    }
 }
 @media (min-width:769px) and (max-width:1024px){
     .cards{
@@ -607,6 +630,7 @@ label{
     }
     .card-category{
         margin-left: 10%;
+        width: 70%;
     }
     .navtools{
         width: 40%;
@@ -616,6 +640,11 @@ label{
     }
     .btitle{
         font-size: 32px;
+    }
+    .product{
+        font-size: 22px;
+        margin-top: 30px;
+        margin-left: 15%;
     }
 }
 @media (min-width:1025px) and (max-width:1200px){
@@ -652,10 +681,11 @@ label{
         width: 50%;
     }
     .card-category{
-        margin-left: 10%;
+        margin-left: 0%;
+        width: 70%;
     }
     .mainbody{
-        width: 250px;
+        width: 270px;
     }
     .cart{
         font-size: 14px;
@@ -670,5 +700,8 @@ label{
     }
     .btitle{
         margin-bottom: 10px;
+    }.product{
+        margin-top: 50px;
+        margin-left: 80px;
     }
 }
