@@ -24,10 +24,11 @@ body{
 }
 .logo{
     display: flex;
-    width: 95%;
+    width:95%;
     margin: 0px auto;
     justify-content: space-between;
     align-items: center;
+    height: 60px;
 }
 .logo img{
     height: 110px;
@@ -85,11 +86,188 @@ body{
     color: white;
     border: none;
     cursor: pointer;
+    height: 60px;
 }
 
 /* banner and navigation end */
 
 /* media queries */
-@media (max-width:319px){
 
+/* screen size for minimum 319px */
+@media (max-width:319px){
+.banner{
+    height: 500px;
+}
+.logo{
+    width: 95%;
+}
+.logo img{
+    height:60px;
+}
+#sign{
+    font-size: 12px;
+    width: 70px;
+}
+.header{
+    font-size: 28px;
+    width: 80%;
+}
+.secline{
+    font-size: 18px;
+}
+.thline{
+    font-size: 18px;
+}
+.email{
+    display: block;
+}
+.email input{
+    height: 40px;
+    width: 90%;
+}
+.email input::placeholder{
+    font-size: 12px;
+}
+.search{
+    font-size: 14px;
+    height: 40px;
+    width:50%;
+    margin-top: 20px;
+}
+}
+
+/* screen size for min 320px and max 480px */
+
+@media (min-width:320px) and (max-width:480px){
+    .banner{
+        height: 500px;
+    }
+    .logo{
+        width: 95%;
+    }
+    .logo img{
+        height:60px;
+    }
+    #sign{
+        font-size: 12px;
+        width: 70px;
+    }
+    .header{
+        font-size: 28px;
+        width: 80%;
+    }
+    .secline{
+        font-size: 18px;
+    }
+    .thline{
+        font-size: 18px;
+    }
+    .email{
+        display: block;
+    }
+    .email input{
+        height: 40px;
+        width: 90%;
+    }
+    .email input::placeholder{
+        font-size: 12px;
+    }
+    .search{
+        font-size: 14px;
+        height: 40px;
+        width:30%;
+        margin-top: 20px;
+    }
+}
+
+/* screen size for min 481px and max 768px */
+
+@media (min-width:481px) and (max-width:768px){
+    .banner{
+        height: 500px;
+    }
+    .header{
+        font-size: 28px;
+        width: 80%;
+    }
+    .secline{
+         font-size: 18px;
+     }
+     .thline{
+         font-size: 18px;
+     }
+     .logo img{
+         height: 70px;
+     }
+     #sign{
+         height: 30px;
+         font-size: 12px;
+     }
+     .email{
+         display: block;
+     }
+     .email input{
+         height: 40px;
+         width: 80%;
+     }
+     .email input::placeholder{
+        font-size: 12px;
+    }
+    .search{
+        font-size: 14px;
+        margin-top: 20px;
+        height: 40px;
+        width: 30%;
+    }
+}
+
+/* screen size for min 769px and max 1024px */
+@media (min-width:769px) and (max-width:1024px){
+    .header{
+        width: 60%;
+    }
+    .secline{
+        font-size: 26px;
+    }
+    .thline{
+        font-size: 23px;
+        width: 50%;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+    .logo img{
+        height: 90px;
+    }
+    .email{
+        display: block;
+    }
+    .email input{
+        width: 60%;
+    }
+    .search{
+        font-size: 16px;
+        height: 40px;
+        margin-top: 20px;
+        width: 20%;
+    }
+}
+
+/* screen size for min 1025px and max 1200px */
+@media (min-width:1025px) and (max-width:1200px){
+    .header{
+        width: 50%;
+    }
+    .banner{
+        height: 700px;
+    }
+}
+
+/* screen size for min 1201 */
+@media (min-width:1201px){
+    .header{
+        width: 40%;
+    }
+    .logo{
+        height: 60px;
+    }
 }
