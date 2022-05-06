@@ -2,15 +2,10 @@
   margin: 0px;
   box-sizing: border-box;
 }
-body {
-  margin-bottom: 50px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Roboto+Flex:opsz@8..144&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 /* banner and navigation start */
 .banner {
-  z-index: -1;
-  top: 0px;
-  left: 0px;
   width: 100%;
   background-image: url(./netflixbanner.jpg);
   height: 750px;
@@ -21,7 +16,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.logo {
+.navbar {
   display: flex;
   position: absolute;
   width: 95%;
@@ -30,12 +25,12 @@ body {
   align-items: center;
   height: 60px;
 }
-.logo img {
-  height: 110px;
+  .navbar img {
+    height: 110px;
 }
 #sign {
-  height: 30px;
-  width: 90px;
+  height: 40px;
+  width: 100px;
   outline: none;
   background-color: #e50914;
   color: white;
@@ -60,7 +55,7 @@ body {
 .thline {
   color: white;
   font-size: 19.2px;
-  margin-top: 15px;
+  margin-top: 20px;
   font-family: "Barlow", sans-serif;
 }
 .center {
@@ -70,7 +65,7 @@ body {
 .email {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .email input {
   width: 40%;
@@ -224,6 +219,135 @@ body {
   align-items: flex-end;
   width: 45%;
 }
+
+/* Frequently asked questions starts here */
+
+.que-container{
+  background-color: black;
+  height: 1150px;
+  padding: 60px;
+  border-bottom: 10px solid #2c2b2b;
+}
+.que-header{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: bold;
+}
+.allquestions{
+  margin-top: 40px;
+}
+.question1{
+  color: white;
+  font-size: 26px;
+  padding: 20px;
+  align-items: center;
+  margin: 2px auto;
+  font-family: 'Roboto Flex', sans-serif;
+  display: flex;
+  background-color: #303030;
+  justify-content: space-between;
+  width: 60%;
+  
+}
+.questions{
+  color: white;
+  font-size: 26px;
+  padding: 20px;
+  align-items: center;
+  margin: 10px auto;
+  font-family: 'Roboto Flex', sans-serif;
+  display: flex;
+  background-color: #303030;
+  justify-content: space-between;
+  width: 60%;
+}
+button{
+  font-size: 26px;
+  outline: none;
+  background: transparent;
+  color: white;
+  border: none;
+}
+.answer{
+  background-color: #303030;
+  width: 60%;
+  padding: 20px;
+  margin: 0px auto;
+}
+.para1{
+  color: white;
+  font-size: 26px;
+  font-family: 'Roboto Flex', sans-serif;
+}
+.para2{
+  color: white;
+  font-size: 26px;
+  margin-top: 20px;
+  font-family: 'Roboto Flex', sans-serif;
+}
+.ready{
+  color: white;
+  font-size: 19.2px;
+  font-family: 'Roboto Flex', sans-serif;
+  text-align: center;
+  margin-top: 70px;
+}
+.email input{
+  width: 40%;
+  outline: none;
+  border: none;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding: 10px;
+}
+.get-started{
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+/* footer starts here */
+.footer{
+  background-color: black;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom:  10px solid #2c2b2b;
+}
+a{
+  text-decoration: none;
+  font-family: 'Roboto Flex', sans-serif;
+  color: #757575;
+  display: flex;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.npl{
+  color: #757575;
+  font-family: 'Roboto Flex', sans-serif;
+  margin-top: 40px;
+}
+.allcolumns{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.contactus{
+  width: 100;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.footercontainer{
+  width: 60%;
+}
 /* media queries */
 
 /* screen size for minimum 319px */
@@ -231,10 +355,10 @@ body {
   .banner {
     height: 500px;
   }
-  .logo {
+  .navbar {
     width: 95%;
   }
-  .logo img {
+  .navbar img {
     height: 60px;
   }
   #sign {
@@ -278,7 +402,7 @@ body {
     width: 100%;
   }
   .image1 img{
-    height: 200px;
+    height: 100px;
     margin-top: 10px;
   }
   .textimg{
@@ -372,10 +496,10 @@ body {
   .banner {
     height: 500px;
   }
-  .logo {
+  .navbar {
     width: 95%;
   }
-  .logo img {
+  .navbar img {
     height: 60px;
   }
   #sign {
@@ -419,7 +543,7 @@ body {
     width: 100%;
   }
   .image1 img{
-    height: 200px;
+    height: 150px;
     margin-top: 10px;
   }
   .textimg{
@@ -524,7 +648,7 @@ body {
   .thline {
     font-size: 18px;
   }
-  .logo img {
+  .navbar img {
     height: 70px;
   }
   #sign {
@@ -666,7 +790,7 @@ body {
     margin: 0px auto;
     margin-top: 20px;
   }
-  .logo img {
+  .navbar img {
     height: 90px;
   }
   .email {
@@ -689,12 +813,13 @@ body {
     font-size: 20px;
   }
   .image1 img{
-    height: 250px;
+    height: 200px;
   }
   .textimg{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 90%;
   }
   .feature1{
     height: 450px;
@@ -705,7 +830,6 @@ body {
   .texts{
     display: flex;
     flex-direction: column;
-   
   }
   .feature2{
     height: 450px;
@@ -718,13 +842,12 @@ body {
   }
   .texts2{
     width: 50%;
-   
   }
   .desc2{
     font-size: 20px;
   }
   .image2 img{
-    height: 300px;
+    height: 200px;
   }
   .textimg2{
     display: flex;
@@ -750,6 +873,7 @@ body {
     position: none;
     top: 0px;
     left: 140px;
+    width:80%;
   }
   .header4{
     font-size: 40px;
@@ -757,12 +881,18 @@ body {
   }
   .desc4{
     font-size: 20px;
+    
   }
   .textimg4{
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .feature4{
     height: 450px;
+  }
+  .image4 img{
+    height: 200px;
   }
 }
 
