@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title" class="text-center">
+                Online survey form
+            </h1>
+            <p id="description">
+                Thank you for taking the time to help us improve the platform
+            </p>
+        </header>
+        <div class="formcontainer">
+            <div class="form">
+                <label for="name">
+                    Name
+                </label>
+                <input type="text" id="name" class="formctrl" placeholder="Enter your name">
+            </div>
+            <div class="form">
+                <label for="email">
+                    Email
+                </label>
+                <input type="email" id="email" class="formctrl" placeholder="Enter your email">
+            </div>
+            <div class="form">
+                <label for="age">
+                    Age
+                </label>
+                <input type="number" id="age" class="formctrl" placeholder="Age">
+            </div>
+            <div class="form">
+                <p>Which option best describes your current role?</p>
+                <select id="dropdown" class="formctrl">
+                    <option disabled selected value>
+                        Select current role
+                    </option>
+                    <option value="student">Student</option>
+                    <option value="full-time-job">Full time job</option>
+                    <option value="Freelancer">Freelancer</option>
+                    <option value="preferno">Prefer not to say</option>
+                </select>
+            </div>
+            <div class="form">
+                <p>
+                    Would you recommend your friend to download our app?
+                </p>
+                <label>
+                    <input name="user-recommend" value="definitely" type="radio" class="input-radio"/>
+                    Definitely
+                </label>
+                <label>
+                    <input name="user-recommend" value="maybe" type="radio"
+                    class="input-radio"/>
+                    Maybe
+                </label>
+                <label>
+                    <input name="user-recommend" value="never" type="radio" class="input-radio"/>
+                    Never
+                </label>
+            </div>
+            <div class="form">
+                <p>
+                    What is your favourite feature of our game?
+                </p>
+                <select id="most-like" class="formctrl">
+                    <option disabled selected value>Select current role</option>
+                    <option value="challenges">
+                        Challenges
+                    </option>
+                    <option value="Arcade">
+                        Arcade
+                    </option>
+                    <option value="community">
+                        Community
+                    </option>
+                </select>
+            </div>
+            <div class="form">
+                <label for="comment">
+                    Any comment or suggestion?
+                </label>
+                <input type="text" id="comment" placeholder="Enter your comment here">
+            </div>
+            <div class="form">
+                <button id="submit-btn">
+                   Submit
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
