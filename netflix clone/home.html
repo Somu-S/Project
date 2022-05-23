@@ -4,459 +4,446 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movies</title>
+    <title>Home</title>
     <link rel="stylesheet" href="home.css">
     <script src="https://kit.fontawesome.com/9cfa251def.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
-        <div class="navbar">
-            <div class="navwrapper">
-                <div class="nav-left">
-                    <div class="logo">
-                        <div class="n">N</div>
-                        <div class="e">E</div>
-                        <div class="t">T</div>
-                        <div class="f">F</div>
-                        <div class="l">L</div>
-                        <div class="i">I</div>
-                        <div class="x">X</div>
+     <div class="navbar">
+                <div class="navwrapper">
+                    <div class="nav-left">
+                        <div class="logo">
+                            <div class="n">N</div>
+                            <div class="e">E</div>
+                            <div class="t">T</div>
+                            <div class="f">F</div>
+                            <div class="l">L</div>
+                            <div class="i">I</div>
+                            <div class="x">X</div>
+                        </div>
+                        <div class="browse">
+                            <i class="fa-solid fa-bars"></i>
+                            <span>Browse</span>
+                        </div>
                     </div>
-                    <div class="browse">
-                        <i class="fa-solid fa-bars"></i>
-                        <span>Browse</span>
-                    </div>
-                </div>
-                 <div class="nav-right">
-                     <div class="searchbar">
-                         <!-- <div class="search-icon"> -->
-                             <i class="fa-solid fa-magnifying-glass"></i>
-                         <!-- </div> -->
-                         <input type="text" placeholder="Enter keywords">
+                     <div class="nav-right">
+                         <div class="searchbar">
+                             <!-- <div class="search-icon"> -->
+                                 <i class="fa-solid fa-magnifying-glass"></i>
+                             <!-- </div> -->
+                             <input type="text" placeholder="Enter keywords">
+                         </div>
+                     <div class="login">
+                         <i class="fa-solid fa-user"></i>
+                         <span>Login</span>
                      </div>
-                 <div class="login">
-                     <i class="fa-solid fa-user"></i>
-                     <span>Login</span>
-                 </div>
-                 </div>
-            </div>
+                     </div>
+                </div>
         </div>
-        <!-- nav bar ends here -->
+        <!-- navbar ends here -->
         <div class="content">
-            <div class="pplrmvs">
-                <div class="stick"></div>
-                Popular Movies
-                <i class="fa-solid fa-filter"></i>
-            </div>
-            <div class="page-no">
-                <a href="#" class="upper-pages" id="clicked">1</a>
-                <a href="#" class="upper-pages">2</a>
-                <a href="#" class="upper-pages">3</a>
-                <a href="#" class="upper-pages"><i class="fa-solid fa-arrow-right"></i></a>
-                <a href="#" class="upper-pages">>></a>
-            </div>
-            <div class="movie-cards">
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
+            <div class="slider">
+                <div class="left-part">
+                    <img id="slider-img" src="././slider.jpg">
+                    <div class="slider-icon">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <i class="fa-solid fa-angle-right"></i>
                     </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
+                    <div class="movie-desc">
+                        <div class="movie-img">
+                            <img src="./Everything_Everywhere_All_at_Once.jpg">
                         </div>
-                        <div class="watch-btn">
+                        <div class="play-icon">
                             <i class="fa-solid fa-play"></i>
-                            watch now
+                        </div>
+                        <div class="title-rating">
+                            <div class="title">Everything Everywhere All At Once
+                            </div>
+                            <div class="rating">
+                                   <div class="star">
+                                     <i class="fa-solid fa-star"></i>8
+                                   </div>
+                                    <div>HD</div>
+                            </div>
+                            <div class="about-mv">
+                                When an international rupture unravels reality, an unlikely hero must channel her newfound powers to fight bewildering dangers from the multiverse,as the fate of everythings hangs in the balance.
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
+                    <div class="right-part">
+                        <div class="all-cards">
+                            <div class="card-wrapper">
+                                <div class="card-img">
+                                    <img src="./movie.jpg" >
+                                </div>
+                                <div class="card-desc">
+                                 <div class="card-rating">
+                                        <div class="star">
+                                          <i class="fa-solid fa-star"></i>8.2
+                                        </div>
+                                         <div>HD</div>
+                                 </div>
+                                 <div class="card-title">
+                                     Money Heist
+                                 </div>
+                                 <div class="about-card">
+                                    A young street-smart, Nathan Drake and his wisecracking partner Victor “Sully”
+                                 </div>
+                                 <div class="watch-btn">
+                                    <i class="fa-solid fa-play"></i>
+                                    watch now
+                                </div>
+                                </div>
+                            </div>
+                            <div class="card-wrapper">
+                                <div class="card-img">
+                                    <img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/snh_online_6072x9000_posed_01.jpg" >
+                                </div>
+                                <div class="card-desc">
+                                 <div class="card-rating">
+                                        <div class="star">
+                                          <i class="fa-solid fa-star"></i>9.1
+                                        </div>
+                                         <div>HD</div>
+                                 </div>
+                                 <div class="card-title">
+                                     Spider-Man:No way home
+                                 </div>
+                                 <div class="about-card">
+                                    Peter Parker seeks Doctor Strange's help to make people forget about Spiderman's identity.
+                                 </div>
+                                 <div class="watch-btn">
+                                    <i class="fa-solid fa-play"></i>
+                                    watch now
+                                </div>
+                                </div>
+                            </div>
+                            <div class="card-wrapper">
+                                <div class="card-img">
+                                    <img src="https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg" >
+                                </div>
+                                <div class="card-desc">
+                                 <div class="card-rating">
+                                        <div class="star">
+                                          <i class="fa-solid fa-star"></i>9.3
+                                        </div>
+                                         <div>HD</div>
+                                 </div>
+                                 <div class="card-title">
+                                     Avengers:Endgame
+                                 </div>
+                                 <div class="about-card">
+                                    After Thanos, an intergalactic warlord, disintegrates half of the world disappears
+                                </div>
+                                 <div class="watch-btn">
+                                    <i class="fa-solid fa-play"></i>
+                                    watch now
+                                </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
+                        <div class="sharewith">
+                            Share With
                         </div>
                     </div>
                 </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
+                <!-- movie slider ends here -->
+                <div class="about-netflix">
+                    Are you looking for the best site for watching movies online? A site that is not only free but also safe? If yes, search no more, you are at the right place. NETFLIX allows users to watch thousands of movies and TV shows in HD quality. You are completely safe on the site as we do not have any ads or require any registration. Although we are free of charge, our quality is on the same par with that of paid streaming services. Our content library is huge with dozens of thousands of titles and our features are excellent. Only on DopeBox can you watch your favorite movies seamlessly with no buffering, lagging, redirects, and pop ups. We also update new titles on a daily basis so rest assured, fun never ends on DopeBox. Your complete satisfaction is our ultimate goal; therefore, do not hesitate to contact us should you have any issues, inquiries, or requests regarding the site. 
                 </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
+                <!-- about the site ends here -->
+                <!-- gif part starts here -->
+                <div class="gif"></div>
+                <!-- gif ends here -->
+
+
+                <!-- movies part starts here -->
+                <div class="movie-card-categories-wrapper">
+                    <div class="categories">
+                        <div class="trending">
+                            <div class="red-bar"></div>
+                            <span id="trend">Trending</span>
                         </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
+                        <div class="movies-cat">
+                            <i class="fa-solid fa-circle-play"></i>
+                            Movies
+                        </div>
+                        <div class="TV-shows-cat">
+                            <i class="fa-solid fa-bars"></i>
+                            TV Shows
                         </div>
                     </div>
+                      <!-- 1st movie -->
+                    <div class="movie-card-container">
+                           <div class="movie-container">
+                               <div class="film-img">
+                                   <img src="https://i.pinimg.com/originals/f4/60/4b/f4604bd3e3ad6146f22458f0aeb4edc1.jpg">
+                               </div>
+                               <div class="about-film">
+                                   <div class="film-rating">
+                                       <div>
+                                        <i class="fa-solid fa-star"></i>7.8
+                                    </div>
+                                    <span class="hd">HD</span>
+                                    <span class="pub-yr">2022</span>
+                                   </div>
+                                   <div class="film-title">
+                                       127 Hours
+                                   </div>
+                                   <div class="film-watch-btn">
+                                    <i class="fa-solid fa-play"></i>
+                                    <div class="watch">Watch now</div>
+                                   </div>
+                               </div>
+                           </div>
+     <!-- 2md movie -->
+                           <div class="movie-container">
+                            <div class="film-img">
+                                <img src="https://images.complex.com/complex/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_face,q_auto,w_1280/wjnhpz3osrai5aningjl.jpg">
+                            </div>
+                            <div class="about-film">
+                                <div class="film-rating">
+                                    <div>
+                                     <i class="fa-solid fa-star"></i>9.8
+                                 </div>
+                                 <span class="hd">HD</span>
+                                 <span class="pub-yr">2022</span>
+                                </div>
+                                <div class="film-title">
+                                    Titanic
+                                </div>
+                                <div class="film-watch-btn">
+                                 <i class="fa-solid fa-play"></i>
+                                 <div class="watch">Watch now</div>
+                                </div>
+                            </div>
+                        </div>
+    <!-- 3rd movie -->
+                        <div class="movie-container">
+                            <div class="film-img">
+                                <img src="https://www.ubuy.com.tr/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjFGbStOK05uY0wuX0FDX1NMMTAwOF8uanBn.jpg">
+                            </div>
+                            <div class="about-film">
+                                <div class="film-rating">
+                                    <div>
+                                     <i class="fa-solid fa-star"></i>7.9
+                                 </div>
+                                 <span class="hd">HD</span>
+                                 <span class="pub-yr">2022</span>
+                                </div>
+                                <div class="film-title">
+                                    Black-Widow
+                                </div>
+                                <div class="film-watch-btn">
+                                 <i class="fa-solid fa-play"></i>
+                                 <div class="watch">Watch now</div>
+                                </div>
+                            </div>
+                        </div>
+    <!-- 4th -->
+                        <div class="movie-container">
+                            <div class="film-img">
+                                <img src="https://media1.popsugar-assets.com/files/thumbor/z5oKgNC9S4DS6Bay78Aoy5aLO4s/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2017/01/26/813/n/1922283/055dc333c3280d59_BeautyAndTheBeast58726d5b9fac8/i/Beauty-Beast-2017-Movie-Posters.jpg">
+                            </div>
+                            <div class="about-film">
+                                <div class="film-rating">
+                                    <div>
+                                     <i class="fa-solid fa-star"></i>8.7
+                                 </div>
+                                 <span class="hd">HD</span>
+                                 <span class="pub-yr">2014</span>
+                                </div>
+                                <div class="film-title">
+                                    Beauty and the beast
+                                </div>
+                                <div class="film-watch-btn">
+                                 <i class="fa-solid fa-play"></i>
+                                 <div class="watch">Watch now</div>
+                                </div>
+                            </div>
+                        </div>
+    <!-- 5th -->
+                        <div class="movie-container">
+                            <div class="film-img">
+                                <img src="https://static.digit.in/OTT/images/tr:w-1200/dora-and-the-lost-city-of-gold-5fce5ace72cf38e430d3662e.jpg">
+                            </div>
+                            <div class="about-film">
+                                <div class="film-rating">
+                                    <div>
+                                     <i class="fa-solid fa-star"></i>7.9
+                                 </div>
+                                 <span class="hd">HD</span>
+                                 <span class="pub-yr">2020</span>
+                                </div>
+                                <div class="film-title">
+                                    Dora the lost city of gold
+                                </div>
+                                <div class="film-watch-btn">
+                                 <i class="fa-solid fa-play"></i>
+                                 <div class="watch">Watch now</div>
+                                </div>
+                            </div>
+                        </div>
+    <!-- 6th -->
+                        <div class="movie-container">
+                            <div class="film-img">
+                                <img src="https://yesimadesigner.com/wp-content/uploads/2018/06/10.jpg?x29684&x29684&x29684">
+                            </div>
+                            <div class="about-film">
+                                <div class="film-rating">
+                                    <div>
+                                     <i class="fa-solid fa-star"></i>9.8
+                                 </div>
+                                 <span class="hd">HD</span>
+                                 <span class="pub-yr">2021</span>
+                                </div>
+                                <div class="film-title">
+                                    Spider-man:Homecoming
+                                </div>
+                                <div class="film-watch-btn">
+                                 <i class="fa-solid fa-play"></i>
+                                 <div class="watch">Watch now</div>
+                                </div>
+                            </div>
+                        </div>
+    <!-- 7th -->
+                        <div class="movie-container">
+                            <div class="film-img">
+                                <img src="https://webneel.com/daily/sites/default/files/images/daily/09-2019/2-movie-poster-design-aladdin-disney-glossy-composite.jpg">
+                            </div>
+                            <div class="about-film">
+                                <div class="film-rating">
+                                    <div>
+                                     <i class="fa-solid fa-star"></i>7.8
+                                 </div>
+                                 <span class="hd">HD</span>
+                                 <span class="pub-yr">2019</span>
+                                </div>
+                                <div class="film-title">
+                                    Aladinn
+                                </div>
+                                <div class="film-watch-btn">
+                                 <i class="fa-solid fa-play"></i>
+                                 <div class="watch">Watch now</div>
+                                </div>
+                            </div>
+                        </div>
+    <!-- 8th -->
+                        <div class="movie-container">
+                            <div class="film-img">
+                                <img src="https://smashinghub.com/wp-content/uploads/2013/05/popular-movie-poster-designs-24.jpg">
+                            </div>
+                            <div class="about-film">
+                                <div class="film-rating">
+                                    <div>
+                                     <i class="fa-solid fa-star"></i>8.2
+                                 </div>
+                                 <span class="hd">HD</span>
+                                 <span class="pub-yr">2018</span>
+                                </div>
+                                <div class="film-title">
+                                    Iron-Man 3
+                                </div>
+                                <div class="film-watch-btn">
+                                 <i class="fa-solid fa-play"></i>
+                                 <div class="watch">Watch now</div>
+                                </div>
+                            </div>
+                        </div>
+    <!-- 9th -->
+                        <div class="movie-container">
+                            <div class="film-img">
+                                <img src="https://www.noupe.com/wp-content/uploads/trans/wp-content/uploads/2010/11/red-posters.jpg">
+                            </div>
+                            <div class="about-film">
+                                <div class="film-rating">
+                                    <div>
+                                     <i class="fa-solid fa-star"></i>7.5
+                                 </div>
+                                 <span class="hd">HD</span>
+                                 <span class="pub-yr">2012</span>
+                                </div>
+                                <div class="film-title">
+                                    RED
+                                </div>
+                                <div class="film-watch-btn">
+                                 <i class="fa-solid fa-play"></i>
+                                 <div class="watch">Watch now</div>
+                                </div>
+                            </div>
+                        </div>
+    <!-- 10th -->
+                        <div class="movie-container">
+                            <div class="film-img">
+                                <img src="https://www.slashfilm.com/wp/wp-content/images/2017-bestposter-split.jpg">
+                            </div>
+                            <div class="about-film">
+                                <div class="film-rating">
+                                    <div>
+                                     <i class="fa-solid fa-star"></i>8.2
+                                 </div>
+                                 <span class="hd">HD</span>
+                                 <span class="pub-yr">2021</span>
+                                </div>
+                                <div class="film-title">
+                                    Split
+                                </div>
+                                <div class="film-watch-btn">
+                                 <i class="fa-solid fa-play"></i>
+                                 <div class="watch">Watch now</div>
+                                </div>
+                            </div>
+                        </div>
+    <!-- 11th -->
+                        <div class="movie-container">
+                            <div class="film-img">
+                                <img src="https://www.al.com/resizer/135yhvDBXfEWZ14hJ-gKMya3yP0=/1280x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/expo.advance.net/img/d9f6450b1a/width2048/797_charliesangels.jpeg">
+                            </div>
+                            <div class="about-film">
+                                <div class="film-rating">
+                                    <div>
+                                     <i class="fa-solid fa-star"></i>8.6
+                                 </div>
+                                 <span class="hd">HD</span>
+                                 <span class="pub-yr">2022</span>
+                                </div>
+                                <div class="film-title">
+                                    Charlies Angels
+                                </div>
+                                <div class="film-watch-btn">
+                                 <i class="fa-solid fa-play"></i>
+                                 <div class="watch">Watch now</div>
+                                </div>
+                            </div>
+                        </div>
+    <!-- 12th -->
+                        <div class="movie-container">
+                            <div class="film-img">
+                                <img src="https://www.whoa.in/download/hollywood-movie-catching-fire-movie-poster-2013">
+                            </div>
+                            <div class="about-film">
+                                <div class="film-rating">
+                                    <div>
+                                     <i class="fa-solid fa-star"></i>7.3
+                                 </div>
+                                 <span class="hd">HD</span>
+                                 <span class="pub-yr">2022</span>
+                                </div>
+                                <div class="film-title">
+                                    The Hunger Games
+                                </div>
+                                <div class="film-watch-btn">
+                                 <i class="fa-solid fa-play"></i>
+                                 <div class="watch">Watch now</div>
+                                </div>
+                            </div>
+                        </div>
+    
+                     </div>  
                 </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="movie-img">
-                        <img src="./movie.jpg">
-                    </div>
-                    <div class="card-contents">
-                     <div class="star">
-                         <div class="rating">
-                           <i class="fa-solid fa-star"></i>6
-                         </div>
-                         <div>HD</div>
-                         <div>2022</div>
-                    </div>  
-                        <div class="movie-title">
-                            Money Heist
-                        </div>
-                        <div class="watch-btn">
-                            <i class="fa-solid fa-play"></i>
-                            watch now
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="page-no  footer-pageno">
-                    <a href="#" class="upper-pages" id="clicked">1</a>
-                    <a href="#" class="upper-pages">2</a>
-                    <a href="#" class="upper-pages">3</a>
-                    <a href="#" class="upper-pages"><i class="fa-solid fa-arrow-right"></i></a>
-                    <a href="#" class="upper-pages">>></a>
-            </div>
-            <div class="footer">
-                <div class="links-contacts">
-                    <a href="#" class="footer-links">Android App</a>
-                    <a href="#" class="footer-links">Terms of service</a>
-                    <a href="#" class="footer-links">Contact</a>
-                    <a href="#" class="footer-links">Sitemap</a>
-                </div>
-                <div class="about">
-                    Netflix.net is a Free Movies streaming site with zero ads. We let you watch movies online without having to register or paying, with over 10000 movies and TV-Series. You can also Download full movies from MoviesCloud and watch it later if you want.
-                </div>
-                <div class="copyright">
-                    ©Netflix.net
-                </div>
-            </div>
         </div>
-    </div>
+        </div>
 </body>
 </html>
