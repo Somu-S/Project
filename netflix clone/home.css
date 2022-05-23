@@ -169,6 +169,7 @@ body{
     color: white;
     justify-content: space-between;
     width: 25%;
+    font-size: 12px;
 }
 .fa-star{
     color: yellow;
@@ -209,7 +210,6 @@ body{
 .card-title{
     font-size: 14px;
     color: white;
-    font-weight: bold;
     margin: 10px 0px;
     letter-spacing: 2px;
 }
@@ -219,12 +219,13 @@ body{
 .about-card{
     width: 80%;
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 11px;
     color: #AAAAAA;
 }
 .sharewith{
     text-align: center;
     padding: 10px;
+    font-size: 12px;
     color: white;
     background-color: rgba(170, 170, 170, 0.209);
 }
