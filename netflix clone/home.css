@@ -381,3 +381,320 @@ body{
     font-size: 12px;
     margin-top: 20px;
 }
+/* media queries  */
+/* media queries for max 219px */
+@media (max-width: 319px){
+    .navbar{
+        height: 40px;
+    }
+    .sharewith,input,.movie-desc,.gif,.watch-btn{
+        display: none;
+    }
+    .slider-icon{
+        width: 100%;
+    }
+    .login span,.browse span{
+        display: none;
+    }
+    .searchbar{
+        background-color: transparent;
+        color: white;
+    }.browse{
+        width: fit-content;
+        background-color:transparent; 
+        margin: 0px;
+    }  .nav-left{
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+    }
+    .trending{
+        font-size: 12px;
+    }
+    .nav-right{
+        justify-content: flex-end;
+    }
+    .movie-card-container{
+        grid-template-columns: auto
+        auto;
+        gap: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+    .film-watch-btn{
+        display: none;
+    }
+    .content{
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-netflix{
+        width: 100%;
+        margin: 20px;
+        text-align: justify;
+    }
+    #slider-img{
+        height: 200px;
+    }
+    .categories,#latest{
+        margin: 0px;
+        width: 100%;
+    }
+    .slider{
+        width: 100%;
+        display: block;
+    }
+    .footer,.footer-links,.links-contacts{
+        width: 100%;
+        padding: 0px;
+    }
+    .film-img img{
+        height: 200px;
+    }
+    .copyright{
+        width: 100%;
+        text-align: center;
+    }
+    .about{
+        width: 100%;
+    }
+    .links-contacts{
+        display: grid;
+        grid-template-columns: auto auto;
+        font-size: 14px;
+        gap: 20px;
+    }
+    .about-film{
+        height: 70px;
+    }
+    .card-rating{
+     width: 60%;
+    }    
+    .card-title{
+        font-size: 12px;
+        word-wrap: break-word;
+    }
+    .Latest{
+        width: 100%;
+        margin: 20px 10px;
+    }
+    #trend{
+        margin: 0px;
+    }
+    .trending{
+        width: 30%;
+    }
+    .card-desc{
+        width: 50%;
+    }
+}
+/* media queries for min 320 and max 48opx */
+@media (min-width: 319px) and (max-width:480px){
+    .navbar{
+        height: 40px;
+    }
+    .sharewith,input,.movie-desc,.gif,.watch-btn{
+        display: none;
+    }
+    .slider-icon{
+        width: 90%;
+    }
+    .login span,.browse span{
+        display: none;
+    }
+    .searchbar{
+        background-color: transparent;
+        color: white;
+    }.browse{
+        width: fit-content;
+        background-color:transparent; 
+        margin: 0px;
+    }  .nav-left{
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+    }
+    .trending{
+        font-size: 12px;
+    }
+    .nav-right{
+        justify-content: flex-end;
+    }
+    .movie-card-container{
+        grid-template-columns: auto
+        auto;
+        gap: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+    .film-watch-btn{
+        display: none;
+    }
+    .content{
+        padding: 0px 10px;
+        padding-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-netflix{
+        width: 100%;
+        margin: 20px;
+        text-align: justify;
+    }
+    #slider-img{
+        height: 250px;
+    }
+    .categories,#latest{
+        margin: 0px;
+        width: 100%;
+    }
+    .slider{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer,.footer-links,.links-contacts{
+        width: 100%;
+        padding: 0px;
+    }
+    .copyright{
+        width: 100%;
+        text-align: center;
+    }
+    .about{
+        width: 100%;
+    }
+    .links-contacts{
+        display: grid;
+        grid-template-columns: auto auto auto
+        auto;
+        font-size: 12px;
+        gap: 20px;
+        justify-content: center;
+    }
+    .about-film{
+        height: 70px;
+    }
+    .card-rating{
+     width: 60%;
+    }    
+    .card-title{
+        font-size: 12px;
+        word-wrap: break-word;
+    }
+    .Latest{
+        width: 100%;
+        margin: 20px 10px;
+    }
+    #trend{
+        margin: 5px;
+    }
+    .trending{
+        width: 30%;
+    }
+    .card-desc{
+        width: 50%;
+    }
+    .right-part{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .logo{
+        font-size: 14px;
+    }
+    .n{
+        font-size: 15px;
+    }
+    .x{
+        font-size: 15px;
+    }
+}
+/* media queries for 481px to 767px */
+@media (min-width: 481px) and (max-width:768px){
+    .slider{
+        display: block;
+    }
+    .searchbar{
+        background-color: transparent;
+        color: white;
+    }.browse{
+        width: fit-content;
+        background-color:transparent; 
+        margin: 0px;
+    }  .nav-left{
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+    }
+    .nav-right{
+        justify-content: flex-end;
+    }
+    .nav-left{
+        flex-direction: row-reverse;
+    }
+    input,.login span,.browse span,.movie-desc{
+        display: none;
+    }
+    #slider-img{
+        height: 350px;
+    }
+    .slider-icon{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+        padding: 0px;
+    }
+    .gif{
+        width: 70%;
+        height: 80px;
+    }
+    .movie-card-container{
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+        width: 100%;
+    }
+    .links-contacts{
+        grid-template-columns: auto auto auto auto ;
+        width: 90%;
+    }
+    .categories{
+        width: 70%;
+        margin: 20px auto;
+    }
+    .right-part{
+        margin: 20px;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .watch-btn,.card-desc,.card-rating{
+        width: 60%;
+    }
+    .about-netflix{
+        width: 80%;
+        text-align: justify;
+    }
+    .film-img img{
+        height: 250px;
+    }
+    .Latest{
+        width: fit-content;
+        margin:30px auto;
+    }
+    .movie-card-categories-wrapper{
+
+        width: 100%;
+        margin: 0px auto;
+    }
+    .footer{
+        margin-bottom: 20px;
+    }
+    .fa-bars{
+        font-size: 20px;
+    }
+}
