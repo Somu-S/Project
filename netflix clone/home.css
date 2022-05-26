@@ -103,6 +103,7 @@ body{
      justify-content: space-between;
      position: absolute;
      width: 55%;
+     align-items: center;
 }
 .fa-angle-right,.fa-angle-left{
     border: 2px solid white;
@@ -434,6 +435,7 @@ body{
         width: 100%;
         margin: 20px;
         text-align: justify;
+        font-size: 12px;
     }
     #slider-img{
         height: 200px;
@@ -661,7 +663,8 @@ body{
     }
     .links-contacts{
         grid-template-columns: auto auto auto auto ;
-        width: 90%;
+        width: 70%;
+        font-size: 13px;
     }
     .categories{
         width: 70%;
@@ -687,8 +690,6 @@ body{
         margin:30px auto;
     }
     .movie-card-categories-wrapper{
-
-        width: 100%;
         margin: 0px auto;
     }
     .footer{
@@ -696,5 +697,238 @@ body{
     }
     .fa-bars{
         font-size: 20px;
+    }
+}
+/* media queries for 769px to 1024px */
+ @media (min-width: 769px) and (max-width: 1024px){
+    input,.browse span,.login span{
+        display: none;
+    }
+    .browse{
+        background-color: transparent;
+        margin: 0px;
+    }
+    .searchbar{
+     background-color: transparent;
+     color: white;
+    }
+    .nav-right{
+        justify-content: flex-end;
+    }
+    .nav-left{
+        flex-direction: row-reverse;
+    }
+    .slider{
+        flex-direction: column;
+    }
+    #slider-img{
+        height: 600px;
+    }
+    .slider-icon{
+        width: 90%;
+    }
+    .movie-desc{
+        bottom: 520px;
+        width: 90%;
+    }
+    .gif{
+        height: 150px;
+        width: 500px;
+    }
+    .movie-card-container{
+        grid-template-columns: auto auto auto auto;
+    }
+    .about-netflix{
+        width: 100%;
+    }
+    .categories{
+        width: 100%;
+        margin: 30px 0px 10px 0px;
+        justify-content: space-around;
+    }
+    .links-contacts{
+        width: 80%;
+    }
+    .right-part{
+        margin-top: 30px;
+        display: block;
+        width: 100%;
+    }
+    .content{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .all-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .card-wrapper{
+        display: block;
+        width: 300px;
+        padding: 10px 0px;
+    }
+    .card-img img{
+        height: 300px;
+        width: 100%;
+    }
+    .card-desc{
+        width: 100%;
+    }
+    .card-rating{
+        width: 30%;
+        font-size: 14px;
+    }
+    .card-title{
+        font-size: 14px;
+    }
+    .slider{
+        width: 100%;
+    }
+    .movie-card-container{
+        width: 100%;
+    }
+    .movie-card-categories-wrapper{
+        width: 100%;
+    }
+    .Latest{
+        width: fit-content;
+        margin: 40px auto;
+    }
+}
+/* media queries for 1025 to 1200px */
+@media (min-width: 1025px) and (max-width:1200px){
+    input,.browse span,.login span{
+        display: none;
+    }
+    .browse{
+        background-color: transparent;
+        margin: 0px;
+    }
+    .searchbar{
+     background-color: transparent;
+     color: white;
+    }
+    .nav-right{
+        justify-content: flex-end;
+    }
+    .nav-left{
+        flex-direction: row-reverse;
+    }
+    .slider{
+        flex-direction: column;
+    }
+    #slider-img{
+        height: 600px;
+    }
+    .slider-icon{
+        width: 90%;
+    }
+    .movie-desc{
+        bottom: 520px;
+    }
+    .gif{
+        height: 150px;
+        width: 500px;
+    }
+    .movie-card-container{
+        grid-template-columns: auto auto auto auto;
+    }
+    .about-netflix{
+        width: 100%;
+    }
+    .categories{
+        width: 100%;
+        margin: 30px 0px 10px 0px;
+        justify-content: space-around;
+    }
+    .links-contacts{
+        width: 80%;
+    }
+    .right-part{
+        margin-top: 30px;
+        display: block;
+        width: 100%;
+    }
+    .content{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .all-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .card-wrapper{
+        display: block;
+        width: 300px;
+        padding: 10px 0px;
+    }
+    .card-img img{
+        height: 300px;
+        width: 100%;
+    }
+    .card-desc{
+        width: 100%;
+    }
+    .card-rating{
+        width: 30%;
+        font-size: 14px;
+    }
+    .card-title{
+        font-size: 14px;
+    }
+    .slider{
+        width: 100%;
+    }
+    .movie-card-container{
+        width: 100%;
+    }
+    .movie-card-categories-wrapper{
+        width: 100%;
+    }
+    .Latest{
+        width: fit-content;
+        margin: 40px auto;
+    }
+}
+/* media queries for min 1201px */
+@media (min-width:1201px){
+    #slider-img{
+       height: 500px;
+    }
+    .right-part{
+        width: 100%;
+    }
+    .card-desc{
+        padding: 10px;
+    }
+    .card-rating{
+        width: 40%;
+    }
+    .watch-btn{
+        width: 70%;
+    }
+    .about-card{
+        width: 100%;
+    }
+    .film-img img{
+        height: 280px;
+    }
+    .Latest{
+        margin-left: 120px;
+    }
+    .movie-card-categories-wrapper{
+        background-color: blue;
+        width: fit-content;
+        margin: 0px auto;
     }
 }
