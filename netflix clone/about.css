@@ -1,0 +1,887 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body{
+    background-color: black;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+.loc-lang{
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+}
+.loc-lang-wrapper{
+    display: flex;
+    margin-right: 60px;
+}
+.loc,.lang{
+    background-color: red;
+    height: 30px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 5px;
+}
+.fa-location-dot,.fa-globe{
+    margin-right: 5px;
+}
+.logo img{
+    height: 100%;
+}
+.logo{
+    height: 80px;
+}
+.nav-logo-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.navpages{
+    display: flex;
+    align-items: center;
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(9,auto);
+}
+.pages{
+    width: fit-content;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.navbar{
+    background-color: transparent;
+    /* position: absolute;
+    width: 100%; */
+}
+.banner{
+    background-image: url(./netflixbanner.jpg);
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-texts{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    width: 40%;
+    text-align: center;
+}
+.story-desc{
+    background-color: black;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 100px;
+}
+.about-netflix{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    width: 60%;
+    padding: 40px;
+}
+header{
+    font-size: 60px;
+    color: white;
+    margin: 40px 0px;
+    text-align: center;
+}
+.story-wrapper{
+    margin-top: 120px;
+}
+.story-slider{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/726/46/535/movies-hollywood-movies-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1200px;
+    height: 500px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+.slider-icon{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+ .slider-icon i{
+    background-color: red;
+    height: 60px;
+    width: 80px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.story-end-text{
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin: 30px auto; 
+}
+.fea-content{
+    width: 70%;
+    margin: 0px auto;
+}
+.fea-container{
+    padding: 80px;
+    background-color: white
+}
+.news-content{
+    margin-top: 40px;
+}
+.news-content-wrapper{
+    display: flex;
+}
+.newsr {
+    color: red;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.fea-header{
+    font-size: 60px;
+}
+.date{
+    font-size: 16px;
+    color: #000000;
+}
+.news-text{
+    font-size: 24px;
+}
+.more{
+    font-size: 16px;
+    color: red;
+}
+.black{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.white{
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.circles{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.slider-btn{
+    float: right;
+    background-color: red;
+    color: white;
+    height: 60px;
+    width: 80px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.image-sustain{
+    background-color: #000000;
+    width: 100%;
+    height: 600px;
+}
+.sus-img{
+    margin: 0px auto;
+    width: fit-content;
+    height: 0px;
+    position: relative;
+}
+.sus-wrapper{
+    background-color: white;
+}
+.sus-header{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.sus-text,.learn{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.learn{
+    color: red;
+}
+.sustain-container{
+    width: 30%;
+    position: absolute;
+    left: 250px;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: white;
+}
+.sus-img img{
+    height: 500px;
+}
+.inv-header{
+    font-size: 40px;
+    color: white;
+}
+.inv-text{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.more{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.inv-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+}
+.about-inv{
+    width: 50%;
+}
+.career-img img{
+    height: 250px;
+}
+.career-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+}
+.about-career{
+    width: 40%;
+} 
+.investor-wrapper{
+    padding: 40px;
+}
+.netflix-btn{
+    background-color: rgba(255, 0, 0, 0.453);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+}
+.net-txt{
+    font-size: 60px;
+    color: white;
+}
+button{
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    padding: 20px 60px;
+}
+/* footer css */
+.net-logo img{
+    height: 150px;
+}
+.media-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    align-items: center;
+    margin: 0px auto;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    font-size: 22px;
+
+    height: fit-content;
+    width: 10%;
+    align-items: center;
+}
+.footer-pages{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+}
+ul li{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.footer-container{
+    padding: 40px 0px 80px;
+}
+.copywright{
+    color: white;
+}
+.copy-page-wrapper{
+    display: flex;
+    align-items: center;
+    width: 78%;
+    margin: 0px auto;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+/* media queries for 319px */
+@media (max-width:319px){
+    .loc-lang,.navpages{
+        display: none;
+    }
+    .logo{
+        margin: 0px auto;
+    }
+    .banner-texts{
+        font-size: 22px;
+        width: 90%;
+    }
+    .banner{
+        height: 400px;
+    }
+    .about-netflix{
+        width: 100%;
+        padding: 0px;
+    }
+    .story-desc{
+        padding: 10px;
+    }
+    .story-wrapper{
+        margin-top: 0px;
+        margin: 0px auto;
+        padding: 0px;
+    }
+    .story-slider,.circles,.none,.slider-btn{
+        display: none;
+    }
+    .story-end-text{
+        width: 100%;
+        font-size: 12px;
+    }
+    header{
+        display: none;
+    }
+    .fea-container{
+        padding:20px;
+    }
+    .fea-header{
+        font-size: 24px;
+    }
+    .date,.news-text,.more{
+        font-size: 14px;
+    }
+    .sus-img img{
+        height: 200px;
+    }
+    .image-sustain{
+        height: 300px;
+    }
+    .sustain-container{
+        width: 70%;
+        position: relative;
+        margin-top: 100px;
+        left: 0px;
+        padding: 10px;
+    }
+    .sus-header{
+        font-size: 16px;
+    }
+    .sus-text,.learn{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .investor-wrapper{
+        padding: 10px;
+        width: 100%;
+    }
+    .inv-wrapper,.career-wrapper{
+        flex-direction: column;
+        margin: 0px;
+        width: 100%;
+    }
+    .inv-img img{
+        height: 190px;
+    }
+    .career-img img{
+        height: 140px;
+    }
+    .inv-header{
+        font-size: 16px;
+    }
+    .inv-text,.more,.about-inv,.about-career{
+        font-size: 14px;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .netflix-btn{
+        height: 200px;
+    }
+    .net-txt{
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+    .net-btn button{
+        font-size: 18px;
+    }
+    .net-logo img{
+        height: 100px;
+    }
+    .media-wrapper,.copy-page-wrapper,.footer-pages{
+        flex-direction: column;
+        width: 100%;
+    }
+    .social{
+        width: 50%;
+    }
+    .copy-page-wrapper{
+        margin-top:20px;
+    }
+    .footer-pages{
+        padding: 0px;
+        margin: 0px;
+    }
+    .pages{
+        padding: 0px;
+        width: fit-content;
+        margin: 20px auto;
+    }
+}
+/* media queries for 320px to 480px */
+@media (min-width:320px) and (max-width:480px){
+    .navpages{
+        display: none;
+    }
+    .loc-lang-wrapper{
+        margin: 10px;
+    }
+    .logo{
+        margin: 0px auto;
+    }
+    .banner-texts{
+        font-size: 22px;
+        width: 90%;
+    }
+    .banner{
+        height: 400px;
+    }
+    .about-netflix{
+        width: 100%;
+        padding: 0px;
+    }
+    .story-desc{
+        padding: 10px;
+    }
+    .story-wrapper{
+        margin-top: 0px;
+        margin: 0px auto;
+        padding: 0px;
+    }
+    .story-slider,.circles,.none,.slider-btn{
+        display: none;
+    }
+    .story-end-text{
+        width: 100%;
+        font-size: 12px;
+    }
+    header{
+        display: none;
+    }
+    .fea-container{
+        padding:20px;
+    }
+    .fea-header{
+        font-size: 24px;
+    }
+    .date,.news-text,.more{
+        font-size: 14px;
+    }
+    .sus-img img{
+        height: 200px;
+    }
+    .image-sustain{
+        height: 300px;
+    }
+    .sustain-container{
+        width: 70%;
+        position: relative;
+        margin-top: 100px;
+        left: 0px;
+        padding: 10px;
+    }
+    .sus-header{
+        font-size: 16px;
+    }
+    .sus-text,.learn{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .investor-wrapper{
+        padding: 10px;
+        width: 100%;
+    }
+    .inv-wrapper,.career-wrapper{
+        flex-direction: column;
+        margin: 0px;
+        width: 100%;
+    }
+    .inv-img img{
+        height: 190px;
+    }
+    .career-img img{
+        height: 140px;
+    }
+    .inv-header{
+        font-size: 16px;
+    }
+    .inv-text,.more,.about-inv,.about-career{
+        font-size: 14px;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .netflix-btn{
+        height: 200px;
+    }
+    .net-txt{
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+    .net-btn button{
+        font-size: 18px;
+    }
+    .net-logo img{
+        height: 100px;
+    }
+    .media-wrapper,.copy-page-wrapper,.footer-pages{
+        flex-direction: column;
+        width: 100%;
+    }
+    .social{
+        width: 50%;
+    }
+    .copy-page-wrapper{
+        margin-top:20px;
+    }
+    .footer-pages{
+        padding: 0px;
+        margin: 0px;
+    }
+    .pages{
+        padding: 0px;
+        width: fit-content;
+        margin: 20px auto;
+    }
+}
+@media (min-width:481px) and (max-width:767px){
+    .banner{
+        height: 350px;
+    }
+    .navpages,.story-slider,header,.slider-btn{
+        display: none;
+    }
+    .logo{
+        height:100px;
+        margin: 0px auto;
+    }
+    .pages{
+        font-size: 10px;
+    }
+    .banner-texts{
+        font-size: 24px;
+        width: 80%;
+    }
+    .about-netflix,.story-desc{
+        padding:20px;
+        width: 100%;
+    }
+    .story-end-text{
+        width: 100%;
+    }
+    .story-wrapper{
+        margin: 0px;
+    }
+    .fea-container{
+        padding:20px;
+    }
+    .fea-content{
+        width: 100%;
+    }
+    .fea-header{
+        font-size: 18px;
+    }
+    .newsr,.date,.more{
+        font-size: 14px;
+    }
+    .news-text{
+        font-size: 16px;
+    }
+    .black,.white{
+        height: 15px;
+        width: 15px;
+    }
+    .sus-img img{
+        height: 400px;
+    }
+    .sustain-container{
+            width: 70%;
+            position: relative;
+            margin-top: 100px;
+            left: 0px;
+            padding: 10px;
+    }
+    .investor-wrapper{
+        padding: 0px;
+        width: 100%;
+    }
+    .inv-wrapper,.career-wrapper{
+        flex-direction: column;
+        margin: 0px;
+        width: 100%;
+    }
+    .inv-img img{
+        height: 320px;
+    }
+    .career-img img{
+        height: 240px;
+    }
+    .inv-header{
+        font-size: 22px;
+    }
+    .about-inv,.about-career{
+        width: 100%;
+        padding: 10px;
+    }
+    .more,.inv-text{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .netflix-btn{
+        height: 200px;
+    }
+    .net-txt{
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+    .net-btn button{
+        font-size: 18px;
+    }
+    .net-logo img{
+        height: 100px;
+    }
+    .media-wrapper,.copy-page-wrapper,.footer-pages{
+        flex-direction: column;
+        width: 100%;
+    }
+    .social{
+        width: 40%;
+    }
+    .copy-page-wrapper{
+        margin-top:20px;
+    }
+    .footer-pages{
+        padding: 0px;
+        margin: 0px;
+    }
+    .pages{
+        padding: 0px;
+        width: fit-content;
+        margin: 20px auto;
+        font-size: 20px;
+    }
+}
+/* media queries for 768px to 1024px */
+@media (min-width:768px) and (max-width:1023px){
+    .banner{
+        height: 400px;
+    }
+    .navpages,.story-slider,header,.slider-btn{
+        display: none;
+    }
+    .logo{
+        height:100px;
+        margin: 0px auto;
+    }
+    .banner-texts{
+        font-size: 32px;
+        width: 80%;
+    }
+    .about-netflix,.story-desc{
+        padding:20px;
+        width: 100%;
+    }
+    .story-end-text{
+        width: 100%;
+    }
+    .story-wrapper{
+        margin: 0px;
+    }
+    .fea-container{
+        padding:20px;
+    }
+    .fea-content{
+        width: 100%;
+    }
+    .fea-header{
+        font-size: 32px;
+    }
+    .newsr,.date,.more{
+        font-size: 20px;
+    }
+    .news-text{
+        font-size: 22px;
+    }
+    .black,.white{
+        height: 20px;
+        width: 20px;
+    }
+    .sus-img img{
+        height: 500px;
+    }
+    .sustain-container{
+            width: 70%;
+            position: relative;
+            margin-top: 100px;
+            left: 0px;
+            padding: 40px;
+    }
+    .investor-wrapper{
+        padding:20px;
+        width: 100%;
+    }
+    .inv-wrapper,.career-wrapper{
+        flex-direction: column;
+        margin: 0px;
+        width: 80%;
+        margin: 0px auto;
+        padding: 10px;
+    }
+    .inv-img img{
+        height: 350px;
+    }
+    .career-img img{
+        height: 270px;
+    }
+    .inv-header{
+        font-size: 22px;
+    }
+    .about-inv,.about-career{
+        width: 100%;
+        padding: 10px;
+    }
+    .more,.inv-text{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .netflix-btn{
+        height: 300px;
+    }
+    .net-txt{
+        font-size: 32px;
+        width: 100%;
+        text-align: center;
+    }
+    .net-btn button{
+        font-size: 32px;
+    }
+    .net-logo img{
+        height: 100px;
+    }
+    .media-wrapper,.copy-page-wrapper,.footer-pages{
+        flex-direction: column;
+        width: 100%;
+    }
+    .social{
+        width: 40%;
+    }
+    .copy-page-wrapper{
+        margin-top: 30px;
+    }
+    .footer-pages{
+        padding: 0px;
+        margin: 0px;
+    }
+    .pages{
+        padding: 0px;
+        width: fit-content;
+        margin: 20px auto;
+        font-size: 32px;
+    }
+    .net-logo img{
+        height: 200px;
+    }
+    .fa-twitter,
+    .fa-instagram,
+    .fa-facebook,.copywright{
+        font-size: 32px;
+    }
+}
+/* media queries for min 1024px */
+@media (min-width:1024px) and (max-width:1200px){
+    .navpages{
+        width: 100%;
+    }
+    .about-netflix{
+        width: 100%;
+    }
+    .story-slider{
+        width: 900px;
+        margin: 0px auto;
+    }
+    .story-wrapper{
+        margin: 0px;
+    }
+    .fea-container{
+        padding: 40px;
+        height: 500px;
+    }
+    .fea-content{
+        width: 100%;
+    }
+    .sustain-container{
+        width: 40%;
+        left: 40px;
+    }
+    
+    .inv-wrapper,.career-wrapper{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .about-career,.about-inv{
+        width: 40%;
+    }
+    .career-img img{
+        height: 300px;
+        width: 500px;
+    }
+    .social{
+        width: 10%;
+    }
+    .footer-pages{
+        width: 100%;
+    }
+    .media-wrapper{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .copy-page-wrapper{
+        width: 100%;
+        padding: 10px;
+    }
+    .copywright{
+        text-align: center;
+    }
+}
