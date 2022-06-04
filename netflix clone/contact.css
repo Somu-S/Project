@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+.navbar{
+    background-color: black;
+}
+.logo,.nav-wrapper,.logo-help{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 70px;
+}
+.n,.x{
+    font-size: 28px;
+    color: red;
+}
+.e,.i{
+    font-size: 26px;
+    color: red;
+}
+.t,.l,.f{
+    font-size: 25px;
+    color: red;
+}
+.pipe{
+    height: 20px;
+    width: 2px;
+    background-color: white;
+}
+.help{
+    font-size: 18px;
+    color: white;
+}
+.logo-help{
+    justify-content: space-between;
+    width: 18%;
+}
+.sign{
+    padding: 5px 30px;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.join{
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.nav-wrapper{
+    width: 80%;
+    margin: 0px auto;
+}
+/* navbar ends here */
+.content-container{
+    padding: 40px 80px;
+}
+.content-wrapper{
+    display: flex;
+}
+.back{
+    font-size: 14px;
+    color: red;
+}
+.fa-arrow-left-long{
+    margin-right: 10px;
+}
+.contact{
+    font-size: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.call{
+    font-size: 24px;
+    margin-top: 40px;
+}
+.bold{
+    font-weight: bold;
+}
+p{
+    font-size: 16px;
+    width: 100%;
+}
+.download{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.learn-how{
+    margin-top: 20px;
+}
+.phn{
+    font-size: 16px;
+    font-weight: bold;
+    margin:10px 0px;
+}
+.us{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.red{
+    color: red;
+}
+.download-btn{
+    display: flex;
+    align-items: center;
+}
+.app-store img{
+    height: 45px;
+}
+.app-store{
+    margin-left: 20px;
+}
+.play-store img{
+    height: 40px;
+}
+.call-btn button{
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.start-live-btn button{
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.question-wrapper{
+    margin-top: 120px;
+    width: 60%;
+}
+.fa-magnifying-glass{
+    background-color: white;
+    width: 10%;
+    font-size: 14px;
+}
+.search-bar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 10px 30px 10px 10px;
+    margin-top: 20px;
+    width: 70%;
+}
+.search-bar input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.search-wrapper,.question-wrapper{
+    font-size: 16px;
+}
+li{
+    margin: 10px 0px;
+}
+.search-wrapper{
+    margin-left: 20px;
+    margin-top: 20px
+}
+.footer{
+    background-color: #221f1f;
+    height: 250px;
+    padding: 40px 0px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+}
+.footer-pages-container{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 14px;
+    color: #8B8A88;
+}
+#languages{
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #8B8A88;
+    color: #8B8A88;
+    background-color: transparent;
+    width: 180px;
+    height: 50px;
+}
