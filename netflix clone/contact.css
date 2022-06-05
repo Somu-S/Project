@@ -200,3 +200,142 @@ li{
     width: 180px;
     height: 50px;
 }
+/* media queries for 319px */
+@media (max-width:319px){
+    .question-wrapper,.pipe,.e,.t,.f,.l,.i,.x{
+        display: none;
+    }
+    .contact{
+        font-size: 32px;
+    }
+    .content-container{
+        padding: 10px;
+    }
+    .footer-content,.footer-pages-container,.download-btn{
+        flex-direction: column;
+    }
+    .footer{
+        height: 300px;
+    }
+    .download-btn{
+        display: block;
+    }
+    .app-store{
+        margin: 0px;
+    }
+    .navbar{
+        padding: 5px 10px;
+    }
+    .nav-wrapper{
+        width: 100%;
+    }
+    .n{
+        font-size: 34px;
+    }
+    .help{
+        font-size: 14px;
+    }
+    .join,.sign{
+        padding: 10px;
+        font-size: 12px;
+    }
+    .logo-help{
+        width: 40%;
+        height: fit-content;
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+    .question-wrapper,.pipe,.e,.t,.f,.l,.i,.x{
+        display: none;
+    }
+    .contact{
+        font-size: 32px;
+    }
+    .content-container{
+        padding: 10px;
+    }
+    .footer-content,.footer-pages-container,.download-btn{
+        flex-direction: column;
+    }
+    .footer{
+        height: 300px;
+    }
+    .download-btn{
+        display: block;
+    }
+    .app-store{
+        margin: 0px;
+    }
+    .navbar{
+        padding: 5px 10px;
+    }
+    .nav-wrapper{
+        width: 100%;
+    }
+    .n{
+        font-size: 34px;
+    }
+    .help{
+        font-size: 14px;
+    }
+    .join,.sign{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .logo-help{
+        width: 30%;
+    }
+    .footer-content{
+        width: 100%;
+        padding: 0px 10px;
+    }
+}
+@media (min-width:481px) and (max-width:767px){
+     .logo-help{
+         display: block;
+     }
+     .help{
+         font-size: 18px;
+     }
+}
+@media (min-width:768px) and (max-width:1200px){
+    .pipe{
+        display: block;
+    }
+    .logo-help{
+        width:35%;
+    }
+    .footer-pages-container{
+        width: 20%;
+        display: block;
+    }
+}
+@media (min-width:1000px) and (max-width:1200px){
+    .footer-pages-container{
+        display: flex;
+        width: 60%;
+    }
+    .footer-content{
+        width: 90%;
+    }
+    .content-container{
+        padding: 20px 40px;
+    }
+    .nav-wrapper{
+        width: 90%;
+    }
+    .logo-help{
+        width: 23%;
+    }
+}
+@media (min-width:1201px){
+    .nav-wrapper{
+        width: 90%;
+    }
+    .logo-help{
+        width: 18%;
+    }
+    .footer-content{
+        width: 90%;
+    }
+}
